@@ -1,0 +1,97 @@
+.home-container {
+  height: inherit;
+}
+
+.messages-container {
+  display: flex;
+  margin: unset;
+  flex-flow: row wrap;
+  height: 80vh;
+  flex-basis: 85%;
+}
+
+.menu-options--container,
+.messages-list-container,
+.message-container {
+  border-right-style: groove;
+  border-width: 2px;
+  border-color: lightgray;
+  margin: unset;
+}
+
+.menu-options--container {
+  flex-basis: 15%;
+}
+.messages-list-container {
+  flex-basis: 25%;
+}
+.message-container {
+  flex-basis: 75%;
+  border-right-style: none;
+}
+
+.message-container,
+.messages-list-container {
+  height: 75vh;
+  overflow: unset;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.menu-options-search {
+  margin: unset;
+  flex-basis: 100%;
+  height: 5vh;
+  background-color: #05aefb63;
+  text-align: center;
+}
+
+.menu-options {
+  margin: unset;
+  flex-basis: 100%;
+  height: 75vh;
+  background-color: #d3d3d361;
+}
+
+.messages-container-options {
+  margin: unset;
+  flex-basis: 100%;
+  height: 5vh;
+  background-color: #05aefb63;
+}
+
+.menu-options .row {
+  justify-content: center;
+  align-items: center;
+}
+.menu-option {
+  padding: 5%;
+  cursor: pointer;
+  margin: unset;
+  flex-basis: 100%;
+}
+.menu-option.highlight {
+  background-color: #05aefb63;
+  font-weight: bolder;
+}
+.menu-option.highlight .count {
+  color: #05aefb;
+}
+
+.menu-option .count {
+  color: black;
+}
+
+.input-search {
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-color: transparent;
+  margin: 0 auto;
+  margin-top: 0.5vh;
+  padding: 2%;
+}
+
+.content {
+  cursor: pointer;
+}

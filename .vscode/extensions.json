@@ -1,0 +1,21 @@
+{
+    "recommendations": [
+      "sdras.night-owl",
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "maixiaojie.git-emoji",
+      "eamodio.gitlens",
+      "perkovec.emoji",
+      "ms-azuretools.vscode-docker",
+      "shanoor.vscode-nginx",
+      "pkief.material-icon-theme",
+      "christian-kohler.npm-intellisense",
+      "CoenraadS.bracket-pair-colorizer",
+      "hazer.ReactCodeSnippets",
+      "vaughan.rdoc-readme",
+      "mikestead.dotenv",
+      "msjsdiag.debugger-for-chrome",
+      "streetsidesoftware.code-spell-checker"
+    ]
+  }
+  

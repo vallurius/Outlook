@@ -1,0 +1,27 @@
+{
+    "files.exclude": {
+      "**/.git": true,
+      "**/node_modules": true
+    },
+    "[typescript]": {
+      "editor.formatOnSave": true,
+      "editor.formatOnPaste": true,
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.formatOnSave": true,
+      "editor.formatOnPaste": true,
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
+      "editor.formatOnSave": true,
+      "editor.renderWhitespace": "all"
+    },
+    "editor.formatOnSave": true,
+    "prettier.requireConfig": true,
+    "workbench.colorTheme": "Night Owl",
+    "window.zoomLevel": 0
+  }
+  

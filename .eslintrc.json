@@ -1,0 +1,23 @@
+{
+  "extends": ["react-app"],
+  "rules": {
+    "react/prop-types": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "no-console": "warn",
+    "import/no-unresolved": 0
+  },
+  "overrides": [
+    {
+      "files": ["**/*.js?(x)"],
+      "rules": {
+        "no-unused-vars": "error",
+        "no-console": "warn"
+      }
+    }
+  ],
+  "settings": {
+    "import/resolver": {
+      "babel-module": {}
+    }
+  }
+}

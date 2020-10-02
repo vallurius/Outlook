@@ -1,0 +1,40 @@
+.app-container {
+  height: 80vh;
+}
+
+.app-footer {
+  height: 10vh;
+  border-color: black;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  background-color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  float: right;
+  cursor: pointer;
+  position: relative;
+}
+
+.circle .notification-count {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  right: -4px;
+  top: -4px;
+  background-color: #05aefb;
+  border-radius: 50%;
+  color: white;
+  color: white;
+  font-size: xx-small;
+}
+
+.notification-count .text {
+  justify-content: center;
+  display: flex;
+}

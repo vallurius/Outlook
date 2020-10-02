@@ -1,0 +1,14 @@
+[
+  {
+    "mId": "guid-1",
+    "unread": true,
+    "subject": "Swiggy",
+    "content": "Hi Valluri<br/>Welcome back to Swiggy! It’s been a while since we last saw you, and I hope these past few months have been safe for you and your family."
+  },
+  {
+    "mId": "guid-2",
+    "unread": false,
+    "subject": "ICICI Lombard",
+    "content": "Dear Mrs Usha<br/>Thank you for choosing ICICI Lombard's Travel Insurance along with your Travel Bookings"
+  }
+]
